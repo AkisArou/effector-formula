@@ -17,13 +17,11 @@
   ],
   "scripts": {
     "build": "npm run clean && npm run lint && npm run format && rollup -c",
-    "build:esm": "tsc",
-    "build:cjs": "tsc --module CommonJS --outDir lib/cjs",
     "clean": "rimraf lib",
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
     "format": "prettier \"src/**/*.{ts,tsx}\" --write",
     "prepare": "husky install",
-    "publish": "np --no-tests --no-yarn --branch=main --contents=lib"
+    "publish": "npm run build && np --no-tests --no-yarn --branch=main --contents=lib"
   },
   "peerDependencies": {
     "effector": "^22.3.0",
