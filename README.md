@@ -3,6 +3,8 @@
 Simple and minimal "formula" creator for [effector](https://github.com/effector/effector) when working with React, built with TypeScript, for
 reusable and scoped stores.
 
+Inspired by Context+hooks state management, but with effector.
+
 ## Example
 
 Create a function (e.g. CounterStore) that accepts StoreProps and returns effector stores and events and pass it to
