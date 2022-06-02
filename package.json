@@ -22,7 +22,8 @@
     "clean": "rimraf lib",
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
     "format": "prettier \"src/**/*.{ts,tsx}\" --write",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "publish": "np --no-tests --no-yarn --branch=main --contents=lib"
   },
   "peerDependencies": {
     "effector": "^22.3.0",
