@@ -3,7 +3,7 @@
   "description": "Simple and minimal \"formula\" creator for effector with React for reusable and scoped stores",
   "author": "AkisARou",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.0",
   "license": "MIT",
   "typings": "lib/index.d.ts",
   "type": "module",
