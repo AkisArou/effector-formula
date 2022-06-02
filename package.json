@@ -5,6 +5,8 @@
   "private": false,
   "version": "0.0.1",
   "license": "MIT",
+  "typings": "lib/index.d.ts",
+  "type": "module",
   "keywords": [
     "react",
     "state management",
@@ -13,7 +15,7 @@
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
   "files": [
-    "lib/"
+    "lib"
   ],
   "scripts": {
     "build": "npm run clean && npm run lint && npm run format && rollup -c",
